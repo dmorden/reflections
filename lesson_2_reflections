@@ -1,3 +1,31 @@
 When you intialize a repository, git creates a hidden history
 file for changes.  Without the git respository you cannot begin
 version control procedures in git.
+
+The staging area is different from the working directory in that it
+exists a a holding place for temporary versions of a file before that 
+file is written to the working directory.  The working directory is the 
+location of the current file.  The value of the staging area is
+minimizing the amount of commits you have.
+
+You can compare what is in each area: working directory, staging area,
+or the latest commit by using git diff to look at differances between
+the working directory and staging area, git diff --staged for 
+differances between stagin area and last commit to ensure the changes 
+you want to be commited are the only ones
+
+Branches help in trying new paths in coding to solve a problem.  
+Branches make things easier to understand where you are at and what you 
+are working on as well as communicating to others in your team what the 
+purposes of each branch is.  
+
+Diagrams help understand the parent path of git commit files visually via
+a linear flow diagram.  Without drawing a diagram out, it may be hard to 
+understand the flow of the branches in git as well as communicate the 
+branch paths to others
+
+The reslut of two merged branchs is a new combined branch with all the 
+commit history of both branchs wooven together when you run git log
+We visulize it as a common point between the two seperate branches with
+a arrow to both parent commits
+
