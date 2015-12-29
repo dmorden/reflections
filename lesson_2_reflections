@@ -1,0 +1,3 @@
+When you intialize a repository, git creates a hidden history
+file for changes.  Without the git respository you cannot begin
+version control procedures in git.

@@ -1,0 +1,18 @@
+the file control on windows lists each change in sequental order
+where as the diff function, while I did not use it, seems to be more
+intuitive as it shows + and - signs as you read the code
+Neither can tell you what is exactly is wrong with your
+programing
+
+By being able to see the history of your files,
+you can run the program seeing differences in performance
+and make adjustments iteratily rather than sequentially
+
+Depends on the purpose of the files.  For google
+docs, the main use is colberative reports which need
+only one file.  However, programing need multiple files.
+
+Git log gives you a history of changes, but you
+must manually go through and find the one you want
+Descriptions are extremely helpful here.  Get Diff
+shows you the difference between two confirms
