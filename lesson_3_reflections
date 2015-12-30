@@ -1,1 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
 
+Pushing your work to a remote location has two main purposes.  First, it allows you to share your work
+with others and for the to assist on the work with you.  In additon, remote allows you to work on different computers
+Second, by pushing your work to remote, if you were to loose your computer due to a harddrive or operating system
+failure, a common occurance with PCs and windows, you would not loose your work. 
